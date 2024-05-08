@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.hovir:hover {
+    opacity: 0.5;
+}
+
+html {
+    background-color: #553E4E;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    background: none;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: large;
+    width: 900px;
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.2) ;
+}
+
+.caption {
+    display: none;
+}
+
+.main {
+    display: flex;
+}
+
+.element {
+    padding: 10px;
+    margin: 10px;
+    width: 16%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #9B4376;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+p{
+    color: #FFAFC5;
+}
